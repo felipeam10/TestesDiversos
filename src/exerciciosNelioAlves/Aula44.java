@@ -1,8 +1,9 @@
 package exerciciosNelioAlves;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula481 {
+public class Aula44 {
 
     public static void main(String[] args) {
 
@@ -10,12 +11,14 @@ public class Aula481 {
 
         int x = sc.nextInt();
 
-        while (x != 2002){
-            System.out.println("Senha inválida");
+        int soma = 0;
+
+        while (x != 0){
+            soma += x;
             x = sc.nextInt();
         }
 
-        System.out.println("Acesso permitido");
+        System.out.println(soma);
 
         sc.close();
 
