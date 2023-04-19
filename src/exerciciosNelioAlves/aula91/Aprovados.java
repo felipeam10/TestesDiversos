@@ -11,7 +11,6 @@ public class Aprovados {
         Scanner sc = new Scanner(System.in);
 
         double media;
-        boolean aprovado = true;
 
         System.out.print("Quantos alunos serão digitadas? ");
         int n = sc.nextInt();
