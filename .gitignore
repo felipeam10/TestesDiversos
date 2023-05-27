@@ -34,3 +34,4 @@ build/
 .vscode/
 
 ### All create files ###
+/out/
