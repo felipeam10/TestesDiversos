@@ -1,2 +1,9 @@
-package exerciciosNelioAlves.aula152.entities;public enum OrderStatus {
+package exerciciosNelioAlves.aula152.enums;
+
+public enum OrderStatus {
+
+    PENDING_PAYMENT,
+    PROCESSING,
+    SHIPPED,
+    DELIVERED;
 }
