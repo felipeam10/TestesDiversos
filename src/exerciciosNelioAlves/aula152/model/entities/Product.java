@@ -1,4 +1,4 @@
-package exerciciosNelioAlves.aula152.entities;
+package exerciciosNelioAlves.aula152.model.entities;
 
 public class Product {
 
@@ -30,9 +30,9 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Product{ " +
                 "name='" + name + '\'' +
                 ", price=" + price +
-                '}';
+                " }";
     }
 }

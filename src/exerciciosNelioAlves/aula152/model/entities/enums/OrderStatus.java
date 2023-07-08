@@ -1,4 +1,4 @@
-package exerciciosNelioAlves.aula152.enums;
+package exerciciosNelioAlves.aula152.model.entities.enums;
 
 public enum OrderStatus {
 

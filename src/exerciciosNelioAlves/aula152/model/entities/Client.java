@@ -1,19 +1,21 @@
-package exerciciosNelioAlves.aula152.entities;
+package exerciciosNelioAlves.aula152.model.entities;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Client {
 
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private String name;
     private String email;
-    private Date bithDate;
+    private Date birthDate;
 
     public Client(){}
 
     public Client(String name, String email, Date bithDate) {
         this.name = name;
         this.email = email;
-        this.bithDate = bithDate;
+        this.birthDate = bithDate;
     }
 
     public String getName() {
@@ -32,20 +34,16 @@ public class Client {
         this.email = email;
     }
 
-    public Date getBithDate() {
-        return bithDate;
+    public Date getBirthDate() {
+        return birthDate;
     }
 
-    public void setBithDate(Date bithDate) {
-        this.bithDate = bithDate;
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
     }
 
     @Override
     public String toString() {
-        return "Client{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", bithDate=" + bithDate +
-                '}';
+        return name + " (" + sdf.format(birthDate) + ") - " + email;
     }
 }
