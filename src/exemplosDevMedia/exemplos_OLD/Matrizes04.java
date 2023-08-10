@@ -1,8 +1,8 @@
-package exemplosDevMedia;
+package exemplosDevMedia.exemplos_OLD;
 
 import java.util.Scanner;
 
-public class Matrizes03 { // calculando o valor médio dos números pares da matriz
+public class Matrizes04 { // calculando o percentual de números positivos da matriz
 
     public static void main(String[] args) {
 
@@ -23,22 +23,19 @@ public class Matrizes03 { // calculando o valor médio dos números pares da mat
         }
 
         System.out.printf("\n");
-        // calculando o valor médio dos números pares da matriz
-        int smPar = 0, ctPar = 0; // declara e inicializa as variáveis
-        double media = 0;
+        // calculando o percentual de números positivos da matriz
+        int ctPos = 0; // declara e inicializa as variáveis
+        double p = 0;
         for (i=0; i<nl; i++) {
             for (j=0; j<nc; j++) {
-                if ((M[i][j] % 2) == 0) {  // verifica "se" o elemento da matriz é par
-                    ctPar = ctPar + 1;            // contando os elementos pares
-                    smPar = smPar + M[i][j];       // somando os elementos pares
+                if (M[i][j] > 0) {         // verifica "se" o elemento da matriz é positivo
+                    ctPos = ctPos + 1;            // contando os elementos positivos
                 }
             }
         }
 
-        if (ctPar != 0) { // evitando a divisão por zero
-            media = (double)smPar / ctPar;
-        }
+        p = (ctPos * 100.0) / (nl * nc);
 
-        System.out.println("Valor médio dos números pares da matriz: " + media);
+        System.out.println("Percentual de números positivos da matriz: " + p);
     }
 }

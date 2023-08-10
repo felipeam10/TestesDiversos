@@ -1,4 +1,4 @@
-package exemplosDevMedia;
+package exemplosDevMedia.exemplos_OLD;
 
 import java.util.Scanner;
 

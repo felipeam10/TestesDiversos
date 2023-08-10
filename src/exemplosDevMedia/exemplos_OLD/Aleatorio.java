@@ -1,4 +1,4 @@
-package exemplosDevMedia;
+package exemplosDevMedia.exemplos_OLD;
 
 public class Aleatorio {
 

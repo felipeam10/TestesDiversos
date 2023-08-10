@@ -1,4 +1,4 @@
-package exemplosDevMedia;
+package exemplosDevMedia.exemplos_OLD;
 
 public class Matrizes09 {
     public static void main(String[] args) {
