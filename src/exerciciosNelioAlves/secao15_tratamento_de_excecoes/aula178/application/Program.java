@@ -1,6 +1,7 @@
 package exerciciosNelioAlves.secao15_tratamento_de_excecoes.aula178.application;
 
 import exerciciosNelioAlves.secao15_tratamento_de_excecoes.aula178.entities.Account;
+import exerciciosNelioAlves.secao15_tratamento_de_excecoes.aula178.exceptions.BusinessException;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -33,13 +34,13 @@ public class Program {
         System.out.print("Enter amount for withdraw:");
         double amount = sc.nextDouble();
 
-        String error = acc.validateWithdraw(amount);
-        if (error != null) {
-            System.out.println(error);
-        } else {
+        try {
             acc.withdraw(amount);
             System.out.printf("Novo saldo: %.2f%n", acc.getBalance());
+        } catch (BusinessException e) {
+            System.out.println(e.getMessage());
         }
+
 
 
         sc.close();
