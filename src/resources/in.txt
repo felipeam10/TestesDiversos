@@ -1,2 +1,4 @@
 Good Morning
 Good Afternon
+Good Evening
+Good Nigth
