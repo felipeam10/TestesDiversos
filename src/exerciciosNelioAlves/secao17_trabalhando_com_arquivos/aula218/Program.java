@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args) {
 
 
-//        C:\\Users\\DELL\\workspace-projects\\TestesDiversos\\src\\resources\\out.txt"
+//        C:\\Users\\DELL\\workspace-projects\\TestesDiversos\\src\\resources\\out.txt
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
