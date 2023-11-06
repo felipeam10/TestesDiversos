@@ -1,4 +1,4 @@
-package exerciciosNelioAlves;
+package exerciciosNelioAlves.secao06_estruturas_repetitivas;
 
 import java.util.Locale;
 import java.util.Scanner;

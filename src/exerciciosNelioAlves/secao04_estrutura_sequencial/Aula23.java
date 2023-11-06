@@ -1,4 +1,4 @@
-package exerciciosNelioAlves;
+package exerciciosNelioAlves.secao04_estrutura_sequencial;
 
 import org.w3c.dom.ls.LSOutput;
 

@@ -1,23 +1,20 @@
-package exerciciosNelioAlves;
+package exerciciosNelioAlves.secao06_estruturas_repetitivas;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula44 {
+public class Aula49 {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        int x = sc.nextInt();
+        int N = sc.nextInt();
 
         int soma = 0;
-
-        while (x != 0){
+        for (int i=0; i<N; i++){
+            int x = sc.nextInt();
             soma += x;
-            x = sc.nextInt();
         }
-
         System.out.println(soma);
 
         sc.close();

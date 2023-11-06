@@ -1,4 +1,4 @@
-package exerciciosNelioAlves;
+package exerciciosNelioAlves.secao10_memoria_arrays_listas;
 
 
 import java.util.Locale;

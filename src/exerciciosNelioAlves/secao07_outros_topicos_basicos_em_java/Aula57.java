@@ -1,4 +1,4 @@
-package exerciciosNelioAlves;
+package exerciciosNelioAlves.secao07_outros_topicos_basicos_em_java;
 
 import java.util.Locale;
 import java.util.Scanner;
