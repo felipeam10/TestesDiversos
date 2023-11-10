@@ -1,6 +1,6 @@
 package exerciciosNelioAlves.secao18_interfaces.aula225.entities;
 
-public class Invoice {
+public class Invoice { /* Invoice = fatuta */
 
     private Double basicPayment;
     private Double tax;
@@ -28,6 +28,6 @@ public class Invoice {
     }
 
     public Double getTotalPayment() {
-        return getBasicPayment() - getTax();
+        return getBasicPayment() + getTax();
     }
 }

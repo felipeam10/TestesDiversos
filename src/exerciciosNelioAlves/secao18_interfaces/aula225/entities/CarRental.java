@@ -2,7 +2,7 @@ package exerciciosNelioAlves.secao18_interfaces.aula225.entities;
 
 import java.time.LocalDateTime;
 
-public class CarRental {
+public class CarRental { /* aluguel de carro */
 
     private LocalDateTime start;
     private LocalDateTime finish;
