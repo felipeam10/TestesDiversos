@@ -1,6 +1,6 @@
 package exerciciosNelioAlves.secao20_prog_funcional_expressoes_lambda.aula252.entities;
 
-public class Product implements Comparable<Product> {
+public class Product {
 
     private String name;
     private Double price;
@@ -32,12 +32,6 @@ public class Product implements Comparable<Product> {
     @Override
     public String toString() {
         return "Product [name=" + name + ", price=" + price + "]";
-    }
-
-
-    @Override
-    public int compareTo(Product p) {
-        return name.toUpperCase().compareTo(p.getName().toUpperCase());
     }
 }
 
