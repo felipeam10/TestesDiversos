@@ -2,8 +2,8 @@ package exerciciosNelioAlves.secao18_interfaces.aula230.application;
 
 import exerciciosNelioAlves.secao18_interfaces.aula230.entities.Contract;
 import exerciciosNelioAlves.secao18_interfaces.aula230.entities.Installment;
-import exerciciosNelioAlves.secao18_interfaces.services.ContractService;
-import exerciciosNelioAlves.secao18_interfaces.services.PaypalServices;
+import exerciciosNelioAlves.secao18_interfaces.aula230.services.ContractService;
+import exerciciosNelioAlves.secao18_interfaces.aula230.services.PaypalServices;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

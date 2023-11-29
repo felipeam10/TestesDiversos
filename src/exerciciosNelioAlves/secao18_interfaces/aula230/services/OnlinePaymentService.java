@@ -1,4 +1,4 @@
-package exerciciosNelioAlves.secao18_interfaces.services;
+package exerciciosNelioAlves.secao18_interfaces.aula230.services;
 
 public interface OnlinePaymentService {
 
