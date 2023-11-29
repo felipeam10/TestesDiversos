@@ -7,6 +7,10 @@ import exerciciosNelioAlves.secao18_interfaces.aula232.model.enums.Color;
 
 public class Program {
 
+    /*
+    Solution with interface and abstract class
+     */
+
     public static void main(String[] args) {
 
         AbstractShape s1 = new Circle(Color.BLACK, 2.0);
