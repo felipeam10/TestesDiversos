@@ -5,6 +5,7 @@ import exerciciosNelioAlves.secao20_prog_funcional_expressoes_lambda.aula256.uti
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Program {
 
@@ -17,7 +18,11 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        list.forEach(Product::nonStaticPriceUpdate);
+        double factor = 1.1;
+
+        Consumer<Product> cons = product -> product.setPrice(product.getPrice() * factor);
+
+        list.forEach(cons);
 
         list.forEach(System.out::println);
     }
