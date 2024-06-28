@@ -1,6 +1,6 @@
 package exemplosDevMedia.date_array_e_string.topico04_7;
 
-public class comoCriarUmaString {
+public class ComoCriarUmaString {
 
     public static void main(String[] args) {
 
