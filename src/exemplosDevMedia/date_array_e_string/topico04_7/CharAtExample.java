@@ -6,6 +6,9 @@ public class CharAtExample {
 
         String nomeCurso = "JAVA";
 
+        if (nomeCurso.charAt(0) == 'J') {
+            System.out.println("O caractere J está na posição 0");
+        }
         if(nomeCurso.charAt(1) == 'A') {
             System.out.println("O caractere A está na posição 1");
         }
