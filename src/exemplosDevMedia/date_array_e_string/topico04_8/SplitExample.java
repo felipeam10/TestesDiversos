@@ -28,4 +28,7 @@ public class SplitExample {
         }
 
     }
+
+//    In summary, the SplitExample  class demonstrates how to use the split method
+//    to split strings into substrings based on a specified delimiter.
 }
